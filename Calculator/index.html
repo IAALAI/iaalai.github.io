@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="iaalai,计算器小工具">
+    <meta name="keywords" content="IAALAI，calculator,计算器，小工具">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./Cover.png">
+    <title>计算器 Calculator</title>
+    <link rel="stylesheet" href="../lib.css">
+    <script>
+        var type = Object;
+        var cace = document.getElementById("cace");
+        var main = document.getElementById("main");
+        function equ(){
+
+        }
+        function add(){
+
+        }
+        function sub(){
+
+        }
+        
+    </script>
+    <style>/* 自定义字体 */
+        @font-face {font-family: "iconfont";src: url('./iconfont.ttf')}
+        .ic{
+            font-family: "iconfont" !important;
+            font-size: 1em;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        #more:before{content: "\e6fe";}
+        #idea:before{content: "\e8ee";}
+        #About:before{content: "\e609";} 
+        body{padding: 20px 0 0 10px;font-family: "Microsotf Yahei UI";}
+        div.fle{height: 100%;width: 1130px;}
+        div.fri{height: 100%;width: 720px;}
+        .top>div{display: inline-block;padding-left: 30px;font: 400 60px "";}
+        #cace{height: auto;font: 500 40px "";color: #777;text-align: right;}
+        #main{height: auto;font: 500 100px "";color: black;text-align: right;}
+  </style>
+<body class="flow">
+<div class="fle">
+    <h1>计算器 Calculator iaalai</h1>
+    <div class="top">
+        <div id="more" class="ic"></div><!-- 选择计算器类型 -->
+        <div id="type">标准</div><!-- 当前的计算器类型 -->
+        <div id="idea" class="ic"></div>
+    </div>
+    <div id="cace" onchange=""> </div>
+    <div id="main" onchange="">0</div>
+    <div class="scan"></div>
+</div>
+<div class="fri">
+    <div class="top">
+        <div class="HS">历史记录</div>
+        <div> </div>
+        <div class="MM">内存</div>
+    </div>
+    <script src=""></script>
+</div>
+</body>
+<!-- Version Dome_test_0.1.0 --> 
+</html>

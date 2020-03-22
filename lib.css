@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* 盒模型
+    1、标准盒模型
+      总高度 = border(上下) + height + padding(上下)
+      总宽度 = border(左右) + width + padding(左右)
+    2、IE盒模型（怪异盒模型）
+      总高度 = height
+      总宽度 = wight
+*/
+
+/* 预定义内容*/ /* 还有需要添加的部分 */
+button {
+	outline: none;
+}
+
+iframe{
+    display: block;
+}
+
+audio,canvas,video,ul,li {
+	display: inline-block;
+}
+
+p{
+	text-align: center;
+}
+
+div>div.LB{
+	height: inherit;
+}
+
+* {
+    margin: 0;
+	padding: 0;
+    width: auto;
+    text-decoration: none;
+	list-style-type: none;
+    line-height: inherit;   
+}
+
+body {
+	font: 0px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+	color: #3c3c3c;
+	background: #f4f4f4;
+}
+
+/* 自定义字体 */
+.icon {
+	height: 1em;
+	width: 1em;
+	vertical-align: auto;
+	fill: currentColor;
+	overflow: hidden;
+}
+/* 伪类 */
+*:link,*:active,*:hover,*:visited {
+	color: unset;
+}
+
+.LB {
+	margin: 0% auto;
+	display: block;
+}
+
+/* 浮动有关 */
+.fle {
+	float: left;
+}
+
+.fri {
+	float: right;
+}
+
+.flow::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/* 颜色 */ 
+.red {
+	color: red;
+}
+
+/* 元素类型 */
+.inline{
+	display: inline;
+}
+
+.block{
+	display: block;
+}
+
+.inl_blo{
+	display: inline-block;
+}
