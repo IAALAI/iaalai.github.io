@@ -1,0 +1,45 @@
+            /*  @   标识符声明
+                @media      媒体查询
+                @charset    定义字符集
+                @import     引入外部CSS文件
+            */@import url(https://at.alicdn.com/t/font_1620198_y8oxqzwe08m.css);
+
+            /* 预定义内容的修改 */.LB{width: 1190px;}
+
+            /* 顶部导航栏 */
+            .site_nav{height: 35px;width: 100%;background-color: #eee;}
+            .site_nav>div{color: #6c6c6c;line-height: 35px;}
+            .site_nav>div>ul>li{padding: 0% 6px;font-size: 12px;}
+            .site_nav>div>ul>li>a{margin-right: 7px;}
+            .site_nav>div>ul>li>a:hover{color: #ff4000;}
+            .site_nav>div i.ic_down{font-size: 10px;}
+            .site_nav>div a>i.icon{font-size: 14px;margin-right: 5px;}
+            .site_nav>div a.area{color: #3c3c3c;}
+
+            /* 广告横幅 */
+            #Site_Ad{height: 70px;background-color: #ff1a2d;}
+            /* 搜索栏 */
+            .search{height: 97px;width: 100%;padding-top: 24px;background: white;}
+            .search>.LB{height:88px;padding-bottom: 9px;}
+            .search h1{height: auto;width: auto;position: relative;display: block;width: 190px;text-align: center;}
+            .search h1>a.LOG{height: auto;width: 142px;padding-top: 58px;margin: 0% 22px;display: block;background: url(./IMG/log.png) 0 0 no-repeat;}
+            .search .QR>p{height: auto;width: auto;color: #ff5000;font-size: 12px;padding: 0% 6px;}
+            .search .QR>img{height: 62px;width: 62px;}
+            .search .sea{height: inherit;width: 630px;}
+            .search .sea .tab{height: 22px;width: auto;}
+            .search .sea .tab li{height: 22px;width: 36px;margin-right: 4px;font-size: 12px;line-height: 22px;color: #F40;}
+            .search .sea .ser{border: 1px #ff4000;}
+            .search .sea .ser .txt input{height: 22px;width: 22px;}
+
+            /* 站内导航栏 */
+            .nav{height: 30px;width: 100%;background: linear-gradient(to right, #ffb000, #ff5000);line-height: 30px;}
+            .nav>div.LB{height: inherit;font-size: 16px;font-weight: 700;color: white;}
+            .nav_n{width: 190px;display: inline-block;background-color: #ff5000;text-align: center;}
+            .nav li{margin-left: 4px;}
+            
+            /* 主体内容 */ /* 首屏中间部分 */
+            .core{height: 522px;}
+            .core_nav{height: 512px;width: 188px;border: 1px solid #ff5000;padding: 5px 0 3px 0;color: #666;font: 500 14px "tahoma";}
+            .core_nav li{height: 32px;width: 145px;padding-left: 25px;}
+
+            /* 结尾内容 */

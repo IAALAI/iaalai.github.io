@@ -1,0 +1,40 @@
+div.LB{
+    width: 1240px;
+}
+
+#head{
+    height: 700px;width: 100%;
+    color: white;
+    background: url(./image/lise.png);
+}
+.head .logo{
+    height: 78px;width: 180px;
+    vertical-align: top;text-align: center;
+    line-height: 78px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.head .lang{font: 16px "PingFangSC-Regular";line-height: 76px;}
+.head .menu_list{height: 72px;width: 648px;}
+.head .menu_list>li{height: 72px;width: auto;font: 700 18px "Microsotf Yahei UI";line-height: 72px;padding-right: 72px;}
+
+#descr{height: 160px;padding: 105px 0 75px 0;}
+#descr p{
+    color: #8eccc9;
+    font: 33px/2 "Microsoft Yahei UI";
+    font-style: italic;
+}
+
+#detab{
+    height: 250px;
+    margin-bottom: 85px;
+}
+#detab a{
+    height: ;width: ;
+}
+#detab {
+
+}
+
+
+
