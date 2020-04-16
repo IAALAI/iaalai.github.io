@@ -5,61 +5,80 @@
     <meta name="keywords" content="">
     <meta name="descr" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="lib.js" async></script>
-    <link rel="stylesheet" href="lib.css">
+    <script src="lib.min.js" async></script>
+    <link rel="stylesheet" href="lib.min.css">
     <title>IAALAI</title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./index/style.css">
 </head>
 <body>
-    <div id="head">
-        <div class="head LB">
-            <div class="logo fle">IAALAI</div>
-            <div class="lang fri">
-                <a href="" class="lang_" lang="">简</a>
-                <i class="s_line">|</i>
-                <a href="" class="lang_" lang="">繁</a>
-                <i class="s_line">|</i>
-                <a href="" class="lang_" lang="">EN</a>
-            </div>
-            <ul class="menu_list LB">
-                <li class="munu1">简介</li>
-                <li class="munu2">业务</li>
-                <li class="munu3">员工</li>
-                <li class="munu4">责任</li>
-                <li class="munu5">投资</li>
-                <li class="munu6">媒体</li>
-            </ul>
+    <nav>
+        <div class="LB">
+                <div class="logo fle">IAALAI</div>
+                <div class="lang fri">
+                    <a href="" class="lang_" lang="">简</a>
+                    <i class="s_line">|</i>
+                    <a href="" class="lang_" lang="">繁</a>
+                    <i class="s_line">|</i>
+                    <a href="" class="lang_" lang="">EN</a>
+                </div>
+                <ul class="menu_list LB">
+                    <li class="munu1">简介</li>
+                    <li class="munu2">业务</li>
+                    <li class="munu3">员工</li>
+                    <li class="munu4">责任</li>
+                    <li class="munu5">投资</li>
+                    <li class="munu6">媒体</li>
+                </ul>
         </div>
-   
-      
-    </div><!-- 三栏布局 1.float 2.position -->
+    </nav><!-- 三栏布局 1.float 2.position -->
+    <div id="head"></div>
     <div id="descr" class="LB">
         <p>是一家以互联网为基础的平台公司，</p>
         <p>通过技术丰富互联网用户的生活，助力企业数字化升级。</p>
         <p>我们的使命是“用户为本 科技向善”。</p>
     </div>
     <div id="detab" class="LB">
-        <a href="#">公司简介</a>
-        <i></i>
-        <a href="#">公司文化</a>
-        <i></i>
-        <a href="#">办公地点</a>
+        <a href="#" class="dis_ib"> 
+        <p class="nmsl">公司简介</p>
+        <img src="https://tencent.com/data/index/index_detail_1.jpg" alt="公司简介"> 
+        </a>
+        <i class="dis_ib"></i>
+        <a href="#" class="dis_ib">
+            <p>公司文化</p>   
+            <img src="https://tencent.com/data/index/index_detail_2.jpg" alt="公司文化">   
+        </a>
+        <i class="dis_ib"></i>
+        <a href="#" class="dis_ib"> 
+            <p>办公地点</p>
+            <img src="https://tencent.com/data/index/index_detail_3.jpg" alt="办公地点">
+        </a>
     </div>
-    <div id="link_are" class="crlink_list LB">
-        <div>
-            <a href="">
-                <p>连接用户与生活</p>
-                <i>让生活更便捷更多彩</i>
-            </a>
-            <a href="">
-                <p>连接企业与科技</p>
-                <i>数值化助手,助力产业升级</i>
-            </a>
-            <a href="">
-                <p>连接现在与未来</p>
-                <i>探索面向未来的创新科技</i>
-            </a>
+    <div class="link_are">
+        <div class="LB flow">
+            <ul class="link_tab fle">
+                <li data-neo="1">
+                    <a href="" class="block">
+                        <h3>连接用户与生活</h3>
+                        <span>让生活更便捷更多彩</span>
+                    </a>
+                </li>
+                <li data-neo="2">
+                    <a href="" class="block">
+                        <h3>连接企业与科技</h3>
+                        <span>数值化助手,助力产业升级</span>
+                    </a>
+                </li>
+                <li data-neo="3">
+                    <a href="" class="block">
+                        <h3>连接现在与未来</h3>
+                        <span>探索面向未来的创新科技</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="link_neo fri">
+                ul.neo_item*3>li
+            </div>
         </div>
         <div class="crit_1">
             <a href="">通信与社交</a>
@@ -79,9 +98,17 @@
             <a href="">腾讯探索</a>
         </div>
     </div>
-    <div class="resp">
-        <div>
-            <img src="" alt="">
+    <div class="resp LB flow">
+        <div class="fle" data-data="0">
+            <div class="">
+                <div class="tit"></div>
+                <div class="dad"></div>
+                <i class="icon Arr_l"></i>
+                <i class="icon Arr_r"></i>
+            </div>
+            <i></i>
+        </div>
+        <div class="fri">
             <p>连接</p>
             <p>责任与信任</p>
             <span>聚合微小善行，以科技让世界更美好</span>
@@ -118,6 +145,9 @@
             
         </div>
     </div>
+    <div id="nav">
+        <div></div>
+    </div>
 </body>
-
+<script src="./index/script.js"></script>
 </html>

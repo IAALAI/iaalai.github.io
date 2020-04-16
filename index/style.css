@@ -1,22 +1,48 @@
 div.LB{
     width: 1240px;
 }
+body{
+    font-family: 'tahoma','楷体';
+}
+
+nav{
+    height: 72px;width: 100%;
+    background-color: #00000000;
+    position: fixed;
+    z-index: 999;
+}
+nav div.LB{
+    height: 100%;
+}
+nav .logo{
+    height: 100%;width: 180px;
+    color: white;
+    vertical-align: top;text-align: center;
+    font: 500 32px/78px 'Consola';
+}
+nav .lang{
+    color: #aaa;
+    font: 16px/76px "PingFangSC-Regular";
+}
+nav ul{
+    height: 100%;width: 648px;
+}
+nav ul li{
+    height: 100%;width: auto;
+    color: white;
+    font: 700 18px/72px "Microsotf Yahei UI";padding-right: 72px;
+}
+.nav{
+    background: white;
+}
 
 #head{
     height: 700px;width: 100%;
     color: white;
-    background: url(./image/lise.png);
+    background-image: url(../image/lise.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-.head .logo{
-    height: 78px;width: 180px;
-    vertical-align: top;text-align: center;
-    line-height: 78px;
-    font-weight: 500;
-    font-size: 30px;
-}
-.head .lang{font: 16px "PingFangSC-Regular";line-height: 76px;}
-.head .menu_list{height: 72px;width: 648px;}
-.head .menu_list>li{height: 72px;width: auto;font: 700 18px "Microsotf Yahei UI";line-height: 72px;padding-right: 72px;}
 
 #descr{height: 160px;padding: 105px 0 75px 0;}
 #descr p{
@@ -30,11 +56,79 @@ div.LB{
     margin-bottom: 85px;
 }
 #detab a{
-    height: ;width: ;
+    height: 100%;width: 400px;
+    position: relative;
+    overflow: hidden;
 }
-#detab {
-
+#detab a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;width: 100%;
+    display: block;
+    background-color: #7ee777d3;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+#detab a:hover::after{
+    opacity: 1;
+}
+#detab a p{
+    height: auto;width: inherit;
+    top: 40%;
+    position: absolute;
+    font: 600 30px '';
+    color: white;
+    z-index: 99;
+}
+#detab a img{
+    height: 100%;
+    transition: 0.3s linear;
+}
+#detab a img:hover{
+    transform: scale(1.1);
+}
+#detab>i{
+    height: 100%;width: 20px;
 }
 
+.link_are{
+    height: 780px;width: 100%;
+    background-color: rgb(27, 37, 31);
+    margin-bottom: 84px;
+}
+.link_tab{
+    height: inherit;width: 36%;
+}
+.link_tab li{
+    height: 260px;width: 100%;
+}
+.link_tab li a{
+    height: 100%;width: 100%;
+    padding-top: 80px;
+    color: #999;
+    box-sizing: border-box;
+}
+.link_tab li a h3{
+    line-height: 45px;
+    font-size: 30px
+}
+.link_tab li a span{
+    font-size: 16px
+}
+.link_neo{
+    height: 100%;width: 64%;
+}
 
-
+.resp{
+    height: 600px;
+    margin-bottom: 80px;
+}
+.resp .fle{
+    height: 100%;width: 50%;
+}
+.resp .fri{
+    height: 100%;width: 50%;
+}

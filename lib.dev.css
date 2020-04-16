@@ -15,7 +15,7 @@ html{
 	width: inherit;
 }
 
-button {
+input,button {
 	outline: none;
 }
 
@@ -37,6 +37,7 @@ div>div.LB{
 
 * {
     margin: 0;
+    border: 0;
 	padding: 0;
     width: auto;
     text-decoration: none;
@@ -46,7 +47,7 @@ div>div.LB{
 
 body {
 	font: 0px/1 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
-	color: #3c3c3c;
+	color: #00000000;
 	background: #f4f4f4;
 }
 
@@ -59,13 +60,8 @@ body {
 	overflow: hidden;
 }
 /* 伪类 */
-*:link,*:active,*:hover,*:visited {
+a:link,a:active,a:hover,a:visited {
 	color: unset;
-}
-
-.LB {
-	margin: 0% auto;
-	display: block;
 }
 
 /* 浮动有关 */
@@ -101,4 +97,13 @@ body {
 
 .dis_ib{
 	display: inline-block;
+}
+
+/* 使一个元素居中,此处需要修改 */
+.LB {
+	margin: 0 auto;
+	display: block;
+}
+.JZ{
+    text-align: center;
 }
