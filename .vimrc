@@ -1,5 +1,7 @@
 set history=50
-set clipboard=unnamed
+set clipboard=unnamedplus
+set tabstop=4
+set shiftwidth=4
 set number
 inoremap <ctrl-w> <up>
 inoremap <ctrl-a> <left> 
@@ -7,8 +9,8 @@ inoremap <ctrl-s> <down>
 inoremap <ctrl-d> <right>
 
 inoremap ！ !
-inoremap （ (
-inoremap ） )
+inoremap ( (
+inoremap ) )
 inoremap 【 [
 inoremap 】 ]
 inoremap ； ;
